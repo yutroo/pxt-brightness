@@ -15,7 +15,7 @@ enum BrightnessEvent {
     }
     //% blockId=brightness_determination block="%v より %flag"
     //% v.min=0 v.max=255
-    export function brightnessDetermination(v: number, flag: BrightnessEvent): boolean {
+    export  function brightnessDetermination(v: number, flag: BrightnessEvent): boolean {
         let res: boolean = true;
         if (flag == 2) {
             res = !res;
